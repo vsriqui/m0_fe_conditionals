@@ -23,4 +23,4 @@
 
 1. What questions do you still have? How will you get the answers you need?
 
-I can't think of anything off the top of my head to conclude this assignment. But I know I can comfortably pose questions to class and instructors if I can't google my way out of the question at this point :).
+* I can't think of anything off the top of my head to conclude this assignment. But I know I can comfortably pose questions to class and instructors if I can't google my way out of the question at this point :).
