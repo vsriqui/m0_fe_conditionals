@@ -28,6 +28,33 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
 
+weather = "icy"
+
+if (weather === "sunny") {
+  console.log("sunscreen");
+} else if (weather === "rainy") {
+  console.log("umbrella");
+} else if (weather === "snowy") {
+  console.log("coat");
+} else if (weather === "icy") {
+  console.log("yak traks");
+} else {
+  console.log("good to go!");
+}
+
+weather = "magma"
+
+if (weather === "sunny") {
+  console.log("sunscreen");
+} else if (weather === "rainy") {
+  console.log("umbrella");
+} else if (weather === "snowy") {
+  console.log("coat");
+} else if (weather === "icy") {
+  console.log("yak traks");
+} else {
+  console.log("good to go!");
+}
 
 // ##################
 // Using the numQuarters variable defined below, determine
@@ -42,10 +69,29 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
-var numQuarters = 0
+var numQuarters = 2
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters >= "2") {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
+}
+
+numQuarters = 1
+
+if (numQuarters >= "2") {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
+}
+
+numQuarters = 4
+
+if (numQuarters >= "2") {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
+}
 
 
 // #####################
@@ -65,3 +111,43 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour < 2 && hasSauce === true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === true) {
+  console.log("I can make pizza");
+} 
+
+var cupsOfFlour = 5;
+var hasSauce = false;
+
+if (cupsOfFlour < 2 && hasSauce === true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === true) {
+  console.log("I can make pizza");
+} 
+
+var cupsOfFlour = 2;
+var hasSauce = true;
+
+if (cupsOfFlour < 2 && hasSauce === true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === true) {
+  console.log("I can make pizza");
+} 
+
+var cupsOfFlour = 3;
+var hasSauce = true;
+
+if (cupsOfFlour < 2 && hasSauce === true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >=2 && hasSauce === true) {
+  console.log("I can make pizza");
+} 
